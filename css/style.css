@@ -20,11 +20,58 @@ body::before {
   z-index: -1;
 }
 
+.work {
+  padding-top: 10px;
+}
+
 .work-container {
   background: #424444;
   width: 100%;
   border-radius: 15px;
   margin-bottom: 20px;
+}
+
+.googleMap {
+  border-radius: 15px;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.googleMap p {
+  text-align: center;
+  padding-left: 100px;
+}
+
+.resumeText {
+  color: #00f7ff;
+  text-decoration: none;
+}
+
+.resumeText:hover {
+  color: #500bf1;
+  text-decoration: none;
+}
+
+.threeD {
+  -webkit-box-shadow: -3px 3px grey, -2px 2px grey, -1px 1px grey;
+          box-shadow: -3px 3px grey, -2px 2px grey, -1px 1px grey;
+}
+
+.contact {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  border: 1px white solid;
+  width: 100px;
+  text-align: center;
+  background-color: #424444;
+}
+
+.yMessage {
+  width: 150px;
+}
+
+.btnHeight {
+  height: 42px;
 }
 
 div .card {

@@ -21,11 +21,61 @@ body{
 }
 }
 
+.work{
+    padding-top: 10px;
+}
+
 .work-container{
     background: #424444;
     width: 100%;
     border-radius: 15px;
     margin-bottom: 20px;
+}
+
+.googleMap{
+    border-radius: 15px;
+    text-align: center;
+    margin-top: 10px;
+    p{
+        text-align: center;
+        padding-left: 100px;
+    }
+}
+
+.resumeText{
+        color: rgb(0, 247, 255);
+        text-decoration: none;
+    
+        &:hover{
+            color: rgb(80, 11, 241);
+            text-decoration: none;
+        }
+}
+
+.threeD{
+    box-shadow: -3px 3px grey, -2px 2px grey, -1px 1px grey;
+}
+
+.contact{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border: 1px white solid;
+    // border-radius: 10px;
+    width: 100px;
+    text-align: center;
+    background-color: #424444;
+}
+
+.yMessage{
+    width: 150px;
+}
+
+// .wBtn{
+//     padding-top: px;
+// }
+
+.btnHeight{
+    height: 42px;
 }
 
 div{
