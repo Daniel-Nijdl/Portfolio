@@ -63,6 +63,14 @@
                         </ul>
                     </li>
                     <!-- <li class="nav-item">
+                        <a href="https://github.com/Daniel-Nijdl" class="btn btn-light btn-circle btn-circle-sm m-1 "
+                            <img src="images/githubLogo.png" alt="githubLogo" class="gitImage">
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="https://app.tallo.com/profile/1075495?accessCode=k9yZjmNuUmnuUEyBT1aiZXtc_fG-Y9NDXEhaB6udAFY" class="nav-link text-white">Skills</a>
+                    </li> -->
+                    <!-- <li class="nav-item">
                         <a href="#" class="nav-link text-white disabled" tabindex="-1" aria-disabled="true">Disabled</a>
                     </li> -->
                 </ul>
@@ -96,7 +104,7 @@
     <!-- Skills -->
     <div id="skills" class="skills container">
         <div class="section-title">
-            <h2>Skills</h2>
+            <h2 class="skillsThing">Skills</h2>
         </div>
 
         <div class="row skills-content">
@@ -259,6 +267,7 @@
                     <a href="https://lindseyshin.github.io/website-project" class="btn btn-primary btnHeight">Espada Website</a>
                 </div>
             </div>
+
             <div class="card">
                 <img src="images/voting.PNG" class="card-img-top" alt="Voting">
                 <div class="card-body">
@@ -268,6 +277,7 @@
                         Website</a>
                 </div>
             </div>
+
             <div class="card">
                 <img src="images/tic.PNG" class="card-img-top" alt="Tic-Tac-Toe">
                 <div class="card-body">
@@ -276,12 +286,22 @@
                     <a href="https://daniel-nijdl.github.io/Tic-Tac-Toe" class="btn btn-primary wBtn btnHeight">Tic-Tac-Toe Website</a>
                 </div>
             </div>
+
+            <!-- <div class="card">
+                <img src="images/comingSoon.png" class="card-img-top" alt="Coming Soon">
+                <div class="card-body">
+                    <h5 class="card-title">Coming Soon</h5>
+                    <p class="card-text">This website is currently being created</p>
+                    <a href="#" class="btn btn-primary btnHeight">Coming Soon</a>
+                </div>
+            </div> -->
         </div>
         <br>
         <br>
     </div>
     <!-- Work -->
 
+    <!-- Contact Form -->
     <section class="contact-form" id="contact-form">
         <div class="container">
             <!--Section: Contact v.2-->
@@ -290,15 +310,15 @@
                 <!--Section heading-->
                 <h2 class="h1-responsive font-weight-bold text-center my-4">Contact Me</h2>
                 <!--Section description-->
-                <p class="text-center w-responsive mx-auto mb-5">If you would like to ask me any questions, please use
-                    the contact form below.</p>
+                <p class="text-center w-responsive mx-auto mb-5">If you would like to ask me any questions or are interested in hiring me, please use the contact form below.</p>
 
                 <div class="row">
 
                     <!--Grid column-->
                     <div class="col-md-9 mb-md-0 mb-5">
                         <form id="contact-form" name="contact-form"
-                            action="mailto:dnijdl267@west-mec.org?subject=subject&message=message" method="POST">
+                            action="https://getform.io/f/763e7928-9715-478a-a823-574d29109b1b" method="POST">
+                            
 
                             <!--Grid row-->
                             <div class="row">
@@ -315,7 +335,7 @@
                                 <!--Grid column-->
                                 <div class="col-md-6">
                                     <div class="md-form mb-0">
-                                        <input type="text" id="email" name="email" class="form-control">
+                                        <input type="email" id="email" name="email" class="form-control">
                                         <label for="email" class="yEmail contact">Your email</label>
                                     </div>
                                 </div>
@@ -325,14 +345,14 @@
                             <!--Grid row-->
 
                             <!--Grid row-->
-                            <div class="row">
+                            <!-- <div class="row">
                                 <div class="col-md-12">
                                     <div class="md-form mb-0">
-                                        <input type="text" id="subject" name="subject" class="form-control">
+                                        <input type="text" id="subject" name="message" class="form-control">
                                         <label for="subject" class="ySubject contact">Subject</label>
                                     </div>
                                 </div>
-                            </div>
+                            </div> -->
                             <!--Grid row-->
 
                             <!--Grid row-->
@@ -342,8 +362,8 @@
                                 <div class="col-md-12">
 
                                     <div class="md-form">
-                                        <textarea type="text" id="message" name="message" rows="2"
-                                            class="form-control md-textarea"></textarea>
+                                        <input type="text" id="message" name="message" rows="2"
+                                            class="form-control md-textarea"></input>
                                         <label for="message" class="yMessage contact">Your message</label>
                                     </div>
 
@@ -351,18 +371,19 @@
                             </div>
                             <!--Grid row-->
 
+                            <div class="text-center text-md-left">
+                                <button class="btn btn-primary subButton" type="submit">Send</button>
+                            </div>
                         </form>
 
-                        <div class="text-center text-md-left">
-                            <a class="btn btn-primary" type="submit">Send</a>
-                        </div>
-                        <div class="status"></div>
+
                     </div>
                     <!--Grid column-->
+                    <!-- /Contact Form -->
 
                     <!--Grid column-->
                     <div class="col-md-3 text-center">
-                        <ul class="list-unstyled mb-0">
+                        <ul class="list-unstyled mb-0 textCenter">
                             <li><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor"
                                     class="bi bi-geo-alt-fill" viewBox="0 0 16 16">
                                     <path
@@ -386,11 +407,13 @@
                                 <p>+1 (623)-432-4946</p>
                             </li>
 
-                            <li><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor"
-                                    class="bi bi-envelope-fill" viewBox="0 0 16 16">
-                                    <path
-                                        d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414.05 3.555zM0 4.697v7.104l5.803-3.558L0 4.697zM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586l-1.239-.757zm3.436-.586L16 11.801V4.697l-5.803 3.546z" />
-                                </svg>
+                            <li><a href="mailto:dnijdl267@west-mec.org" class="btn-scroll scrollto emailButton" title="Scroll down"><i
+                                class="bx bx-chevron-down"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor"
+                                class="bi bi-envelope-fill" viewBox="0 0 16 16">
+                                
+                                <path
+                                    d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414.05 3.555zM0 4.697v7.104l5.803-3.558L0 4.697zM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586l-1.239-.757zm3.436-.586L16 11.801V4.697l-5.803 3.546z" />
+                            </svg></i></a>
                                 <p>dnijdl267@west-mec.org</p>
                             </li>
                         </ul>
@@ -407,6 +430,9 @@
         <div class="footer"></div>
 
         <!-- JavaScript Bundle with Popper -->
+        <script src="https://code.jquery.com/jquery-3.5.1.js"
+        integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
+        crossorigin="anonymous"></script>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
             integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
             crossorigin="anonymous"></script>

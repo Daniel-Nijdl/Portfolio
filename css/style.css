@@ -20,6 +20,10 @@ body::before {
   z-index: -1;
 }
 
+.skillsThing {
+  padding-top: 10px;
+}
+
 .work {
   padding-top: 10px;
 }
@@ -66,12 +70,17 @@ body::before {
   background-color: #424444;
 }
 
-.yMessage {
-  width: 150px;
-}
-
 .btnHeight {
   height: 42px;
+}
+
+.emailButton {
+  color: white;
+}
+
+.gitImage {
+  width: 150px;
+  height: 150px;
 }
 
 div .card {
