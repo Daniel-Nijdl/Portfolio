@@ -1,7 +1,7 @@
 body{
     font-family: sans-serif;
     background-color: #040404;
-    color: rgb(255, 255, 255);
+    color: rgb(255, 255, 255)!important;
     position: relative;
     background: transparent;
     font-family: 'Akaya Telivigala', cursive;
@@ -23,6 +23,10 @@ body{
 
 .skillsThing{
     padding-top: 10px;
+}
+
+#message{
+    height: 200px;
 }
 
 .work{
@@ -88,6 +92,14 @@ body{
 
 .emailButton{
     color: white;
+    &:hover{
+        color: rgb(0, 247, 255);
+        
+    }
+}
+
+.rowSpace{
+    padding-bottom: 10px;
 }
 
 .gitImage{

@@ -14,6 +14,11 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Akaya+Telivigala&family=Roboto+Slab&display=swap"
         rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.3.0/mdb.min.css"
+        integrity="sha512-aQX0wElRuvqZ1bVvsknO9jDXwvVI71vwYLuEDZ8QqMJxPozZPPCCmylpHx4ngmeIz7Bg6FfE4Ay+CfDVFqjy+A=="
+        crossorigin="anonymous" />
+
+
 
 </head>
 
@@ -33,7 +38,7 @@
                         d="M2.5 11.5A.5.5 0 0 1 3 11h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4A.5.5 0 0 1 3 7h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4A.5.5 0 0 1 3 3h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z" />
                 </svg></button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0 ulBlock">
                     <li class="nav-item">
                         <a href="#body" class="nav-link active text-white">Home</a>
                     </li>
@@ -42,9 +47,13 @@
                     </li>
 
                     <li class="nav-item">
-                        <a href="#work"
-                            class="nav-link text-white">Work</a>
+                        <a href="#work" class="nav-link text-white">Work</a>
                     </li>
+
+                    <li class="nav-item">
+                        <a href="#contact-form" class="nav-link text-white">Contact</a>
+                    </li>
+
                     <li class="bg-dark text-white nav-item dropdown">
                         <a href="#" class="nav-link dropdown-toggle text-white" id="navbarDropdown" role="button"
                             data-bs-toggle="dropdown" aria-expanded="false">
@@ -52,15 +61,33 @@
                         </a>
                         <ul class="bg-dark text-white dropdown-menu">
                             <li>
-                                <a href="https://github.com/Daniel-Nijdl" class="bg-dark text-white dropdown-item">Github</a>
+                                <a href="https://github.com/Daniel-Nijdl"
+                                    class="bg-dark text-white dropdown-item">Github</a>
                             </li>
                             <li>
-                                <a href="https://app.tallo.com/profile/1075495?accessCode=k9yZjmNuUmnuUEyBT1aiZXtc_fG-Y9NDXEhaB6udAFY" class="bg-dark text-white dropdown-item">Tallo</a>
+                                <a href="https://app.tallo.com/profile/1075495?accessCode=k9yZjmNuUmnuUEyBT1aiZXtc_fG-Y9NDXEhaB6udAFY"
+                                    class="bg-dark text-white dropdown-item">Tallo</a>
                             </li>
                             <li>
                                 <a href="#" class="bg-dark text-white dropdown-item">Last Action</a>
                             </li>
                         </ul>
+                    </li>
+
+                    <li class="nav-item me-auto">
+                        <a class="btn btn-primary btn-lg btn-floating gitButton" style="background-image: url(images/githubLogo.png);
+                    background-size: cover; width: 30px; height: 30px;" href="#" role="button"><i
+                                class="fab fa-github"></i></a>
+                    </li>
+                    <li class="nav-item me-auto">
+                        <a class="btn btn-primary btn-lg btn-floating gitButton" style="background-image: url(images/talloLogo.png);
+                  background-size: cover; width: 30px; height: 30px;" href="#" role="button"><i
+                                class="fab fa-github"></i></a>
+                    </li>
+                    <li class="nav-item me-auto">
+                        <a class="btn btn-primary btn-lg btn-floating gitButton" style="background-image: url(images/linkedinLogo.webp);
+                background-size: cover; width: 30px; height: 30px;" href="#" role="button"><i
+                                class="fab fa-github"></i></a>
                     </li>
                     <!-- <li class="nav-item">
                         <a href="https://github.com/Daniel-Nijdl" class="btn btn-light btn-circle btn-circle-sm m-1 "
@@ -95,8 +122,8 @@
             <a href="#skills" class="btn-scroll scrollto" title="Scroll down"><i
                     class="bx bx-chevron-down">Skills</i></a>
 
-                    <a href="#resume" class="btn-scroll scrollto" title="Scroll down"><i
-                        class="bx bx-chevron-down">Resume</i></a>
+            <a href="#resume" class="btn-scroll scrollto" title="Scroll down"><i
+                    class="bx bx-chevron-down">Resume</i></a>
         </div>
     </section>
     <!-- /Landing -->
@@ -165,11 +192,12 @@
         <div class="container">
             <div class="section-title">
                 <h2>Resume</h2>
-                <a href="https://www.dropbox.com/s/aiebuc8fwfgve60/CS%20102%20Unit%202.docx?dl=1" class="btn-scroll scrollto threeD" title="Scroll down"><i
-                    class="bx bx-chevron-down resumeText">Download my Resume</i></a>
+                <a href="https://www.dropbox.com/s/aiebuc8fwfgve60/CS%20102%20Unit%202.docx?dl=1"
+                    class="btn-scroll scrollto threeD" title="Scroll down"><i
+                        class="bx bx-chevron-down resumeText">Download my Resume</i></a>
             </div>
 
-            <div class="row">
+            <div class="row rowSpace">
                 <div class="col-lg-6">
                     <h3 class="resume-title">Summary/Cover Letter</h3>
                     <div class="resume-item pb-0">
@@ -192,17 +220,24 @@
 
                     <h3 class="resume-title">Education</h3>
                     <div class="resume-item">
-                        <h4>GED</h4>
+                        <h4>High School Deploma</h4>
                         <h5>2022</h5>
-                        <p><em>Cactus High School</em></p>
+                        <br>
+                        <br>
+                        <a href="https://www.peoriaunified.org/Cactus" class="btn-scroll scrollto threeD"
+                            title="Scroll down"><i class="bx bx-chevron-down resumeText emailButton">
+                                <p><em>Cactus High School</em></p>
+                            </i></a>
                         <p>Top 10% (2019 and 2020)</p>
                     </div>
 
                     <div class="resume-item">
-                        <h4>What degree you graduated with</h4>
-                        <h5>Graduation Year</h5>
-                        <p><em>where you graduated from</em></p>
-                        <p>Awards, Honors, general information about your time</p>
+                        <h4>West Mec Graduation</h4>
+                        <h5>2022</h5>
+                        <br>
+                        <br>
+                        <p><em>Western Maricopa Education Center</em></p>
+                        <p>Was a part of the Coding program for 2 years.</p>
                     </div>
                     <!-- Add more as needed -->
 
@@ -210,6 +245,8 @@
                     <div class="resume-item">
                         <h4>Name of the Cert</h4>
                         <h5>Year Obtained</h5>
+                        <br>
+                        <br>
                         <p><em>Company that provides Cert</em></p>
                     </div>
                     <!-- Add more as needed -->
@@ -264,7 +301,8 @@
                 <div class="card-body">
                     <h5 class="card-title">Espada</h5>
                     <p class="card-text">This is a webiste for a fictional business named Espada.</p>
-                    <a href="https://lindseyshin.github.io/website-project" class="btn btn-primary btnHeight">Espada Website</a>
+                    <a href="https://lindseyshin.github.io/website-project" class="btn btn-primary btnHeight">Espada
+                        Website</a>
                 </div>
             </div>
 
@@ -273,7 +311,8 @@
                 <div class="card-body">
                     <h5 class="card-title">Voting Website</h5>
                     <p class="card-text">This is a fictional voting website.</p>
-                    <a href="https://daniel-nijdl.github.io/Fake-Voting-Website" class="btn btn-primary wBtn btnHeight">Voting
+                    <a href="https://daniel-nijdl.github.io/Fake-Voting-Website"
+                        class="btn btn-primary wBtn btnHeight">Voting
                         Website</a>
                 </div>
             </div>
@@ -283,7 +322,8 @@
                 <div class="card-body">
                     <h5 class="card-title">Tic-Tac-Toe</h5>
                     <p class="card-text">This is a simple Tic-Tac-Toe Website</p>
-                    <a href="https://daniel-nijdl.github.io/Tic-Tac-Toe" class="btn btn-primary wBtn btnHeight">Tic-Tac-Toe Website</a>
+                    <a href="https://daniel-nijdl.github.io/Tic-Tac-Toe"
+                        class="btn btn-primary wBtn btnHeight">Tic-Tac-Toe Website</a>
                 </div>
             </div>
 
@@ -310,7 +350,8 @@
                 <!--Section heading-->
                 <h2 class="h1-responsive font-weight-bold text-center my-4">Contact Me</h2>
                 <!--Section description-->
-                <p class="text-center w-responsive mx-auto mb-5">If you would like to ask me any questions or are interested in hiring me, please use the contact form below.</p>
+                <p class="text-center w-responsive mx-auto mb-5">If you would like to ask me any questions or are
+                    interested in hiring me, please use the contact form below.</p>
 
                 <div class="row">
 
@@ -318,7 +359,7 @@
                     <div class="col-md-9 mb-md-0 mb-5">
                         <form id="contact-form" name="contact-form"
                             action="https://getform.io/f/763e7928-9715-478a-a823-574d29109b1b" method="POST">
-                            
+
 
                             <!--Grid row-->
                             <div class="row">
@@ -326,8 +367,8 @@
                                 <!--Grid column-->
                                 <div class="col-md-6">
                                     <div class="md-form mb-0">
-                                        <input type="text" id="name" name="name" class="form-control">
-                                        <label for="name" class="yName contact">Your name</label>
+                                        <input type="text" id="name" name="name" class="form-control yName" required>
+                                        <label for="name" class="contact">Your name</label>
                                     </div>
                                 </div>
                                 <!--Grid column-->
@@ -335,8 +376,9 @@
                                 <!--Grid column-->
                                 <div class="col-md-6">
                                     <div class="md-form mb-0">
-                                        <input type="email" id="email" name="email" class="form-control">
-                                        <label for="email" class="yEmail contact">Your email</label>
+                                        <input type="email" id="email" name="email" class="form-control yEmail"
+                                            required>
+                                        <label for="email" class="contact">Your email</label>
                                     </div>
                                 </div>
                                 <!--Grid column-->
@@ -362,9 +404,9 @@
                                 <div class="col-md-12">
 
                                     <div class="md-form">
-                                        <input type="text" id="message" name="message" rows="2"
-                                            class="form-control md-textarea"></input>
-                                        <label for="message" class="yMessage contact">Your message</label>
+                                        <input type="text" id="message" name="message" rows="3"
+                                            class="form-control md-textarea yMessage" size="20" required></input>
+                                        <label for="message" class="contact">Your message</label>
                                     </div>
 
                                 </div>
@@ -384,36 +426,41 @@
                     <!--Grid column-->
                     <div class="col-md-3 text-center">
                         <ul class="list-unstyled mb-0 textCenter">
-                            <li><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor"
-                                    class="bi bi-geo-alt-fill" viewBox="0 0 16 16">
-                                    <path
-                                        d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6z" />
-                                </svg>
+                            <li><a href="https://goo.gl/maps/Tahib41SmESKGmV77" class="btn-scroll scrollto emailButton"
+                                    title="Scroll down"><i class="bx bx-chevron-down"><svg
+                                            xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                            fill="currentColor" class="bi bi-geo-alt-fill" viewBox="0 0 16 16">
+                                            <path
+                                                d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6z" />
+                                        </svg></i></a>
                                 <div class="googleMap">
                                     <iframe
                                         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3322.993964041692!2d-112.23316228484056!3d33.60546108072982!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x872b69e75d6496d9%3A0x849ab344cfe3a060!2s7956%20W%20Pershing%20Ave%2C%20Peoria%2C%20AZ%2085381!5e0!3m2!1sen!2sus!4v1614802180890!5m2!1sen!2sus"
-                                        width="400" height="300" style="border:0;" allowfullscreen=""
+                                        width="300" height="200" style="border:0;" allowfullscreen=""
                                         loading="lazy"></iframe>
-                                    <p>7956 West Pershing Ave. Peoria, AZ 85381, USA</p>
                                 </div>
+                                <p>7956 West Pershing Ave. Peoria, AZ 85381, USA</p>
 
                             </li>
 
-                            <li><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor"
-                                    class="bi bi-telephone-fill" viewBox="0 0 16 16">
-                                    <path fill-rule="evenodd"
-                                        d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z" />
-                                </svg>
+                            <li><a href="tel:623-432-4946" class="btn-scroll scrollto emailButton"
+                                    title="Scroll down"><i class="bx bx-chevron-down"><svg
+                                            xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                            fill="currentColor" class="bi bi-telephone-fill" viewBox="0 0 16 16">
+                                            <path fill-rule="evenodd"
+                                                d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z" />
+                                        </svg></i></a>
                                 <p>+1 (623)-432-4946</p>
                             </li>
 
-                            <li><a href="mailto:dnijdl267@west-mec.org" class="btn-scroll scrollto emailButton" title="Scroll down"><i
-                                class="bx bx-chevron-down"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor"
-                                class="bi bi-envelope-fill" viewBox="0 0 16 16">
-                                
-                                <path
-                                    d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414.05 3.555zM0 4.697v7.104l5.803-3.558L0 4.697zM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586l-1.239-.757zm3.436-.586L16 11.801V4.697l-5.803 3.546z" />
-                            </svg></i></a>
+                            <li><a href="mailto:dnijdl267@west-mec.org" class="btn-scroll scrollto emailButton"
+                                    title="Scroll down"><i class="bx bx-chevron-down"><svg
+                                            xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                            fill="currentColor" class="bi bi-envelope-fill" viewBox="0 0 16 16">
+
+                                            <path
+                                                d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414.05 3.555zM0 4.697v7.104l5.803-3.558L0 4.697zM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586l-1.239-.757zm3.436-.586L16 11.801V4.697l-5.803 3.546z" />
+                                        </svg></i></a>
                                 <p>dnijdl267@west-mec.org</p>
                             </li>
                         </ul>
@@ -431,11 +478,14 @@
 
         <!-- JavaScript Bundle with Popper -->
         <script src="https://code.jquery.com/jquery-3.5.1.js"
-        integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
-        crossorigin="anonymous"></script>
+            integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
             integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
             crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.3.0/mdb.min.js"
+            integrity="sha512-Bbn2GxMX2ePx4if/heU6eS4avbu2ac+V1q2jb4mlh1WofyrKV/vm6/mMWmuzgoHQlxvgg7dPuyTtTZSX/Zgk3Q=="
+            crossorigin="anonymous"></script>
+
         <script src="script.js"></script>
 </body>
 

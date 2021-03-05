@@ -7,18 +7,19 @@
 //     }
 // }
 
-// function addToList(){
-//     let yName = document.getElementsByClassName("yName").value;
-//     let yEmail = document.getElementsByClassName("yEmail").value;
-//     let ySubject = document.getElementsByClassName("ySubject").value;
-//     let yMessage = document.getElementsByClassName("yMessage").value;
-// }
+
+    let yName = document.getElementsByClassName("yName").value;
+    let yEmail = document.getElementsByClassName("yEmail").value;
+    let yMessage = document.getElementsByClassName("yMessage").value;
+
 
 
 // let info = "";
 
 // $(function(){
+    if(yName != null && yEmail != null && yMessage != null){
     $(`.subButton `).on(`click`, function(){
         document.forms['contact-form'].reset()
     })
+}
 // })

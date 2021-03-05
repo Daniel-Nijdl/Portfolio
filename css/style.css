@@ -1,7 +1,7 @@
 body {
   font-family: sans-serif;
   background-color: #040404;
-  color: white;
+  color: white !important;
   position: relative;
   background: transparent;
   font-family: 'Akaya Telivigala', cursive;
@@ -22,6 +22,10 @@ body::before {
 
 .skillsThing {
   padding-top: 10px;
+}
+
+#message {
+  height: 200px;
 }
 
 .work {
@@ -78,6 +82,14 @@ body::before {
   color: white;
 }
 
+.emailButton:hover {
+  color: #00f7ff;
+}
+
+.rowSpace {
+  padding-bottom: 10px;
+}
+
 .gitImage {
   width: 150px;
   height: 150px;
@@ -101,6 +113,10 @@ div img {
 
 .bg-dark {
   background-color: #121516 !important;
+}
+
+.socials {
+  float: end;
 }
 
 .navbar {
