@@ -98,9 +98,11 @@ body{
 //     padding-top: px;
 // }
 
-.btnHeight{
-    height: 42px;
-}
+// .btnHeight{
+//     text-align: center;
+//     align-items: center;
+//     justify-content: center;
+// }
 
 .emailButton{
     color: white;
@@ -127,14 +129,33 @@ body{
     color: white;
 }
 
+.normalText{
+    color: white;
+    font-size: 30px;
+    font-family: 'Special Elite', cursive;
+    margin-bottom: 5px;
+    text-align: center;
+}
+
 .btnBackground{
     background-color: rgba(255, 255, 255, 0.2);
-    border-radius: 20px;
+    border-radius: 20px!important;
     margin-bottom: 10px;
     // width: 15%;
     text-align: center;
+    font-size: .25rem;
 
 }
+
+.resumeButton{
+    background-color: rgba(255, 255, 255, .2)!important;
+    border-radius: 20px!important;
+    margin-bottom: 10px;
+    // width: 15%;
+    text-align: center;
+    font-size: .25rem;
+}
+
 div{
     .card{
         background-color: rgb(121, 117, 117);
@@ -202,6 +223,13 @@ position: relative;
         align-items: center;
         flex-direction: column;
         padding: 0 15px;;
+    }
+
+    .button-container{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        padding: 0 15px;
     }
 
     h1{
