@@ -33,6 +33,11 @@ body{
     padding-top: 10px;
 }
 
+.cactusButton{
+    width: 20px!important;
+    background: none;
+}
+
 .work-container{
     background: #424444;
     width: 100%;
@@ -112,6 +117,11 @@ body{
     }
 }
 
+.socialsH4{
+    text-align: center;
+    justify-content: center;
+}
+
 .rowSpace{
     padding-bottom: 10px;
 }
@@ -131,20 +141,47 @@ body{
 
 .normalText{
     color: white;
-    font-size: 30px;
+    font-size: 40px;
     font-family: 'Special Elite', cursive;
     margin-bottom: 5px;
     text-align: center;
+    &:hover{
+        color: white;
+    }
 }
 
 .btnBackground{
-    background-color: rgba(255, 255, 255, 0.2);
+    background-color: rgba(255, 255, 255, 0.151);
     border-radius: 20px!important;
     margin-bottom: 10px;
     // width: 15%;
     text-align: center;
     font-size: .25rem;
+    &:hover{
+        background-color: rgba(255, 255, 255, 0.747);
+    }
+}
 
+.dark-mode {
+    background-color: white;
+    color: black;
+  }
+
+.dark-button{
+      background-color: white!important;
+      background-image: url(images/black-crescent-moon-png-2.jpg)!important;
+      background-repeat: no-repeat;
+      background-size: cover;
+
+  }
+
+.light-button{
+    background-color: white;
+    background-image: url(images/brightness-high.svg);
+}
+
+.socialFont{
+    font-size: 1rem;;
 }
 
 .resumeButton{
