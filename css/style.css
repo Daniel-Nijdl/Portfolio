@@ -24,6 +24,14 @@ body::before {
   padding-top: 10px;
 }
 
+.schoolBtn {
+  color: white;
+}
+
+.schoolBtn:hover {
+  color: #00f7ff;
+}
+
 #message {
   height: 200px;
 }
@@ -81,6 +89,10 @@ body::before {
   width: 150px;
   text-align: center;
   background-color: #424444;
+  border-radius: 50px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .socialButton {

@@ -25,6 +25,15 @@ body{
     padding-top: 10px;
 }
 
+.schoolBtn{
+    color: white;
+    // background-color: rgba(255, 255, 255, 0.151);
+    &:hover{
+        color: rgb(0, 247, 255);
+        
+    }
+}
+
 #message{
     height: 200px;
 }
@@ -77,10 +86,11 @@ body{
     margin-top: 10px;
     margin-bottom: 10px;
     border: 1px white solid;
-    // border-radius: 10px;
     width: 150px;
     text-align: center;
     background-color: #424444;
+    border-radius: 50px;
+    align-items: center;
 }
 
 // .rightNav{
