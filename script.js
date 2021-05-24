@@ -97,3 +97,4 @@ window.onload = function() {
     document.body.appendChild(css);
 };
 
+console.log(true || true);
